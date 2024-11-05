@@ -6,7 +6,7 @@
   <link href="https://blog.667408.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.667408.xyz/"/>
-  <updated>2024-11-03T16:00:00.000Z</updated>
+  <updated>2024-11-05T16:00:00.000Z</updated>
   <id>https://blog.667408.xyz/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>输入法分享</title>
+    <link href="https://blog.667408.xyz/posts/95c6eb48"/>
+    <id>https://blog.667408.xyz/posts/95c6eb48</id>
+    <published>2024-11-04T16:00:00.000Z</published>
+    <updated>2024-11-05T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="RIME-中州韻輸入法引擎"><a href="#RIME-中州韻輸入法引擎" class="headerlink" title="RIME | 中州韻輸入法引擎"></a>RIME | 中州韻輸入法引擎</h1><p>分享 2 个比较不错且好用的词库<br><a href="https://github.com/gaboolic/rime-frost?tab=readme-ov-file">白霜拼音</a>：这个呢是我自己目前在用的<br><a href="https://github.com/iDvel/rime-ice">雾凇词库</a>：转白霜拼音之前使用的  </p><h1 id="词库用法"><a href="#词库用法" class="headerlink" title="词库用法"></a>词库用法</h1><ul><li>下载之后把里面的文件都放到 <code>用户文件夹</code> 里</li><li><code>重新部署</code> 之后在输入法设定里面选择你下载的词库</li></ul><h1 id="更改字体、字号，把竖排改为横排"><a href="#更改字体、字号，把竖排改为横排" class="headerlink" title="更改字体、字号，把竖排改为横排"></a>更改字体、字号，把竖排改为横排</h1><ul><li>在用户文件夹里新建 <code>weasel.custom.yaml</code>，在里面输入如下内容：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">patch:  </span><br><span class="line">  &quot;style/font_face&quot;: &quot;微软雅黑&quot;  </span><br><span class="line">  &quot;style/font_point&quot;: 13  </span><br><span class="line">  &quot;style/horizontal&quot;: true</span><br></pre></td></tr></table></figure><blockquote><p>如果有好的词库或者设置欢迎分享</p></blockquote>]]></content>
+    
+    
+    <summary type="html">突然想要记录和分享一下自用的输入法</summary>
+    
+    
+    
+    <category term="软件" scheme="https://blog.667408.xyz/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="白霜拼音" scheme="https://blog.667408.xyz/tags/%E7%99%BD%E9%9C%9C%E6%8B%BC%E9%9F%B3/"/>
+    
+    <category term="输入法" scheme="https://blog.667408.xyz/tags/%E8%BE%93%E5%85%A5%E6%B3%95/"/>
+    
+    <category term="雾凇词库" scheme="https://blog.667408.xyz/tags/%E9%9B%BE%E5%87%87%E8%AF%8D%E5%BA%93/"/>
+    
+    <category term="小狼毫" scheme="https://blog.667408.xyz/tags/%E5%B0%8F%E7%8B%BC%E6%AF%AB/"/>
+    
+    <category term="中州韻" scheme="https://blog.667408.xyz/tags/%E4%B8%AD%E5%B7%9E%E9%9F%BB/"/>
+    
+    <category term="RIME" scheme="https://blog.667408.xyz/tags/RIME/"/>
+    
+  </entry>
   
   <entry>
     <title>Chsrc--全功能一键换源工具</title>
@@ -584,34 +615,6 @@
     <category term="Plugins" scheme="https://blog.667408.xyz/tags/Plugins/"/>
     
     <category term="Tag" scheme="https://blog.667408.xyz/tags/Tag/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开启首页创造力</title>
-    <link href="https://blog.667408.xyz/posts/fbadba82"/>
-    <id>https://blog.667408.xyz/posts/fbadba82</id>
-    <published>2024-09-22T16:00:00.000Z</published>
-    <updated>2024-11-03T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="开启创造力"><a href="#开启创造力" class="headerlink" title="开启创造力"></a>开启创造力</h1><ul><li>主题配置文件，关闭 <code>peoplecanvas.enable</code></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml  </span><br><span class="line">peoplecanvas:  </span><br><span class="line">  enable: false  </span><br><span class="line">  img: https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png</span><br></pre></td></tr></table></figure><ul><li>创建 <code>/source/_data/creativity.yml</code>，输入以下内容</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">- class_name: 开启创造力  </span><br><span class="line">  creativity_list:  </span><br><span class="line">    - name: Java  </span><br><span class="line">      color: &quot;#fff&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b1184e9.jpg  </span><br><span class="line">    - name: Docker  </span><br><span class="line">      color: &quot;#57b6e6&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b0f0abe.png  </span><br><span class="line">    - name: Photoshop  </span><br><span class="line">      color: &quot;#4082c3&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2022/12/15/639aa3a5c240e.png  </span><br><span class="line">    - name: Node  </span><br><span class="line">      color: &quot;#333&quot;  </span><br><span class="line">      icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg  </span><br><span class="line">    - name: Webpack  </span><br><span class="line">      color: &quot;#2e3a41&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b68026c.png  </span><br><span class="line">    - name: Pinia  </span><br><span class="line">      color: &quot;#fff&quot;  </span><br><span class="line">      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg  </span><br><span class="line">    - name: Python  </span><br><span class="line">      color: &quot;#fff&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b1230f7.png  </span><br><span class="line">    - name: Vite  </span><br><span class="line">      color: &quot;#937df7&quot;  </span><br><span class="line">      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg  </span><br><span class="line">    - name: Flutter  </span><br><span class="line">      color: &quot;#4499e4&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b1055c2.png  </span><br><span class="line">    - name: Vue  </span><br><span class="line">      color: &quot;#b8f0ae&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b6788bd.png  </span><br><span class="line">    - name: React  </span><br><span class="line">      color: &quot;#222&quot;  </span><br><span class="line">      icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K  </span><br><span class="line">    - name: CSS3  </span><br><span class="line">      color: &quot;#2c51db&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2022/12/15/639aa3a5c251e.png  </span><br><span class="line">    - name: JS  </span><br><span class="line">      color: &quot;#f7cb4f&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b121f02.png  </span><br><span class="line">    - name: HTML  </span><br><span class="line">      color: &quot;#e9572b&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2022/12/15/639aa3a5c241c.png  </span><br><span class="line">    - name: Git  </span><br><span class="line">      color: &quot;#df5b40&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2023/04/09/643293b10ccdd.webp  </span><br><span class="line">    - name: Apifox  </span><br><span class="line">      color: &quot;#e65164&quot;  </span><br><span class="line">      icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png</span><br></pre></td></tr></table></figure><hr><h1 id="People-模式高度调整"><a href="#People-模式高度调整" class="headerlink" title="People 模式高度调整"></a>People 模式高度调整</h1><ul><li>找到这个路径 <code>themes\anzhiyu\layout\includes\top\top.pug</code> 进行修改</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.swiper_container_card(style=&#x27;height: auto;width: 100%&#x27;)  </span><br><span class="line">  #bannerGroup  </span><br><span class="line">    #random-banner  </span><br><span class="line">      if theme.peoplecanvas.enable  </span><br><span class="line">        canvas#peoplecanvas(style=&#x27;height: 100%;width: auto&#x27;)</span><br></pre></td></tr></table></figure><hr><h1 id="一键三连"><a href="#一键三连" class="headerlink" title="一键三连"></a>一键三连</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean; hexo g; hexo s</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;开启创造力&quot;&gt;&lt;a href=&quot;#开启创造力&quot; class=&quot;headerlink&quot; title=&quot;开启创造力&quot;&gt;&lt;/a&gt;开启创造力&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;主题配置文件，关闭 &lt;code&gt;peoplecanvas.enable&lt;/code&gt;&lt;/li&gt;
-&lt;/ul</summary>
-      
-    
-    
-    
-    <category term="建站" scheme="https://blog.667408.xyz/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="安知鱼" scheme="https://blog.667408.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/"/>
-    
-    <category term="Hexo" scheme="https://blog.667408.xyz/tags/Hexo/"/>
     
   </entry>
   

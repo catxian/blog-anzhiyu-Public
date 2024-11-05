@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>输入法分享</title>
+      <link href="/posts/95c6eb48"/>
+      <url>/posts/95c6eb48</url>
+      
+        <content type="html"><![CDATA[<h1 id="RIME-中州韻輸入法引擎"><a href="#RIME-中州韻輸入法引擎" class="headerlink" title="RIME | 中州韻輸入法引擎"></a>RIME | 中州韻輸入法引擎</h1><p>分享 2 个比较不错且好用的词库<br><a href="https://github.com/gaboolic/rime-frost?tab=readme-ov-file">白霜拼音</a>：这个呢是我自己目前在用的<br><a href="https://github.com/iDvel/rime-ice">雾凇词库</a>：转白霜拼音之前使用的  </p><h1 id="词库用法"><a href="#词库用法" class="headerlink" title="词库用法"></a>词库用法</h1><ul><li>下载之后把里面的文件都放到 <code>用户文件夹</code> 里</li><li><code>重新部署</code> 之后在输入法设定里面选择你下载的词库</li></ul><h1 id="更改字体、字号，把竖排改为横排"><a href="#更改字体、字号，把竖排改为横排" class="headerlink" title="更改字体、字号，把竖排改为横排"></a>更改字体、字号，把竖排改为横排</h1><ul><li>在用户文件夹里新建 <code>weasel.custom.yaml</code>，在里面输入如下内容：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">patch:  </span><br><span class="line">  &quot;style/font_face&quot;: &quot;微软雅黑&quot;  </span><br><span class="line">  &quot;style/font_point&quot;: 13  </span><br><span class="line">  &quot;style/horizontal&quot;: true</span><br></pre></td></tr></table></figure><blockquote><p>如果有好的词库或者设置欢迎分享</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 白霜拼音 </tag>
+            
+            <tag> 输入法 </tag>
+            
+            <tag> 雾凇词库 </tag>
+            
+            <tag> 小狼毫 </tag>
+            
+            <tag> 中州韻 </tag>
+            
+            <tag> RIME </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Chsrc--全功能一键换源工具</title>
       <link href="/posts/b330686"/>
       <url>/posts/b330686</url>
