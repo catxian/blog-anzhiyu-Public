@@ -106,41 +106,35 @@
         }
 
         
+
+        
         body {
-            background: linear-gradient(135deg, #364f6b, #222831);
+            background: linear-gradient(135deg, #fce38a, #eaffd0);
         }
         .loading {
-            background: #393e46;
-            color: #EFEFEF;
-            box-shadow: 0 4px 8px rgba(100, 100, 100, 0.1);
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .description {
-            color: #F3F3F3;
-        }
-        .url-text, .countdown-text {
-            color: #EFEFEF;
+        .url-text {
+            color: #333;
         }
         .jump-url {
-            border: 1px solid #777;
-            background-color: #333;
-            color: #EFEFEF;
+            border: 1px solid #ccc;
+            background-color: #F7F9FE;
+            color: #333;
+        }
+        .countdown-text {
+            color: #515151;
         }
         .cancel-button {
-            background-color: #872C2C;
-            color: #FFF;
+            background-color: #a6e3e9;
         }
         .confirm-button {
-            background-color: #28566F;
-            color: #FFF;
-        }
-        .progress-bar {
-            background-color: #444;
+            background-color: #3fc1c9;
         }
         .progress {
-            background-color: #888;
+            background-color: #abedd8;
         }
-        
-
         
     </style>
     <script type="text/javascript">
@@ -166,7 +160,7 @@
             return output;
         }
 
-        var jump_url = GetQueryString('url');
+        var jump_url = GetQueryString('u');
         
         jump_url = base64Decode(jump_url);
         
@@ -205,7 +199,7 @@
             const avatarImg = document.querySelector('.avatar');
             const placeholder = document.querySelector('.avatar-placeholder');
             const img = new Image();
-            img.src = '/favicon.ico';
+            img.src = '/img/touxiang.gif';
             img.onload = function() {
                 avatarImg.src = img.src;
                 avatarImg.style.display = 'block';
